@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="initializaiton">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{b3b172b9-ba48-46f6-9199-b21ade7f7c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{1bf3f917-d571-40ba-afff-263729c7d371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{fc239a8c-c15b-4acc-b438-15078ef61eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{066af2c2-2c01-47f8-aaeb-6fc730b8616d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{ab0be4a9-d38b-4147-83bb-45d6e20542d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stealth">
+      <UniqueIdentifier>{1494839d-627c-4904-92f2-9d46a3b6c359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{ffe7f297-69c6-4dd6-9be7-d5d23a008a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{d7503807-6ec7-4ff9-8724-0625d819bd95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>initializaiton</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>initializaiton</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>initializaiton</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="vmt.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>stealth</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>stealth</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth.cpp">
+      <Filter>stealth</Filter>
+    </ClCompile>
+    <ClCompile Include="cmd.cpp">
+      <Filter>stealth</Filter>
+    </ClCompile>
+    <ClCompile Include="control.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth_input.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="listbox.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="util_funcs.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="iosystem.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="splashscreen.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="init.h">
+      <Filter>initializaiton</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>initializaiton</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth.h">
+      <Filter>stealth</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>stealth</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>stealth</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd.h">
+      <Filter>stealth</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth_input.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="listbox.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="util_funcs.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="iosystem.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="splashscreen.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="renderer.inl">
+      <Filter>directx</Filter>
+    </None>
+  </ItemGroup>
+</Project>
